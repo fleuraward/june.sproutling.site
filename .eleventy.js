@@ -10,6 +10,14 @@ module.exports = function(eleventyConfig) {
     console.log("✅ Build complete. Have a nice day!");
   });
 
+  
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    permalink: (data) => {
+      if (data?.permalinkStyle === "default") return;
+      return `${data.page.filePathStem}.html`;
+    }
+  });
+
   return {
     dir: {
       input: "src",
