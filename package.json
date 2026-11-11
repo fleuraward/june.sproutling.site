@@ -1,0 +1,24 @@
+{
+  "name": "june.sproutling.site",
+  "version": "1.0.0",
+  "description": "website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleuraward/june.sproutling.site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fleuraward/june.sproutling.site/issues"
+  },
+  "homepage": "https://github.com/fleuraward/june.sproutling.site#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

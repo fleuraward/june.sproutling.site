@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+{% include 'partial/head.njk'%}
+
+</head>
+<body>
+    
+    <div class="cont">
+       
+        {% include 'partial/alttop.njk'%}
+
+        <main>
+
+
+            <div class="maintextholdnormal br p10">    
+
+                <div class="secondspeech mb7">
+                    These lists do not entail all of my favourite characters, media or ships, but please use it as a gist for some things I do enjoy. I'm ot a huge shipper, but I am a multishipper and like to play with a bunch of different dynamics.
+                </div>
+
+                <div class="flex colmob2 gap10">
+                    <div class="half">
+                        <h2 class="p5 grad fhfw ab"> Characters </h2>
+                        
+                <div class="gallery p5 galbord">
+                {% for image in favechara %}
+            <div class="centxt">
+            <a
+            href="{{image.link}}"
+            data-description="{{image.name}} from {{image.media}}"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="{{image.link}}">
+        </a>
+            </div>
+            {% endfor %}
+            </div>
+
+                    </div>
+                    <div class="half">
+                        <div> 
+                        <h2 class="p5 grad fhfw ab"> Media </h2>
+                        
+                <div class="gallery p5 galbord" style="margin-bottom: 10px">
+                {% for image in media %}
+            <div class="centxt">
+            <a
+            href="{{image.link}}"
+            data-description="{{image.name}}"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="{{image.link}}">
+        </a>
+            </div>
+            
+            {% endfor %}
+                        </div>
+                        
+                        <div> 
+                        <h2 class="p5 grad fhfw ab"> Ships </h2>
+                         <div class="gallery p5 galbord">
+                {% for image in ships %}
+            <div class="centxt">
+            <a
+            href="{{image.link}}"
+            data-description="{{image.media}}"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="{{image.link}}">
+        </a>
+            </div>
+            
+            {% endfor %}
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    {% include 'partial/foot.njk'%}
+</body>
+</html>

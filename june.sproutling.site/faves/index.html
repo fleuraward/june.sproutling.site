@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hop, hop, little bunny where are you going? into the forest?</title>
+<script src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/bunny.gif">
+  <link rel="shortcut icon" href="/assets/bunny.gif" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Yomogi&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/glightbox/css/glightbox.css"/>
+
+<script>
+function tb8_makeArray(n){
+this.length = n;
+return this.length;
+}
+tb8_messages = new tb8_makeArray(3);
+tb8_messages[0] = "hop, hop, little bunny";
+tb8_messages[1] = "where are you going?";
+tb8_messages[2] = "into the forest?";
+tb8_rptType = 'infinite';
+tb8_rptNbr = 5;
+tb8_speed = 200;
+tb8_delay = 600;
+var tb8_counter=1;
+var tb8_currMsg=0;
+var tb8_tekst ="";
+var tb8_i=0;
+var tb8_TID = null;
+function tb8_pisi(){
+tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+document.title = tb8_tekst;
+tb8_sp=tb8_speed;
+tb8_i++;
+if (tb8_i==tb8_messages[tb8_currMsg].length){
+tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+}
+if (tb8_currMsg == tb8_messages.length){
+if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+clearTimeout(tb8_TID);
+return;
+}
+tb8_counter++;
+tb8_currMsg = 0;
+}
+tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+}
+tb8_pisi()
+</script>
+
+</head>
+<body>
+    
+    <div class="cont">
+       
+        <style> 
+nav {
+    width:100% !important;
+}
+</style>
+       <header>
+            <div class="hold">
+                <div class="headim"></div>
+            </div> 
+
+            <div class="headt">
+                <div class="altw">
+                    <h1> June </h1>
+                    <span>or <b>junebug</b> ... he/him</span>
+                </div>
+
+            </div>
+        </header>
+
+        <nav class="gradflip br">
+            <ul>
+                <li><a href="/">home</a></li>
+                <li class="star">✦</li>
+                <li><a href="/sona">sona</a></li> <!-- talking about my sona, artists behind them. no lore its just used to represent me! -->
+                <li class="star">✦</li>
+                <li><a href="/faves">faves</a></li> <!-- interests and also blorbos from my shows etc etc -->
+            </ul>
+        </nav>
+        
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+  var currentSlug = window.location.pathname;
+
+  if (!currentSlug.endsWith('/')) {
+    currentSlug += '/';
+  }
+
+  var navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(link) {
+    var linkHref = link.getAttribute('href');
+
+    if (!linkHref.endsWith('/')) {
+      linkHref += '/';
+    }
+
+    if (currentSlug === '/' && linkHref === '/home/') {
+      link.classList.add('navactive');
+    }
+
+    if (linkHref === currentSlug) {
+      link.classList.add('navactive');
+    }
+  });
+});
+</script>
+
+        <main>
+
+
+            <div class="maintextholdnormal br p10">    
+
+                <div class="secondspeech mb7">
+                    These lists do not entail all of my favourite characters, media or ships, but please use it as a gist for some things I do enjoy. I'm ot a huge shipper, but I am a multishipper and like to play with a bunch of different dynamics.
+                </div>
+
+                <div class="flex colmob2 gap10">
+                    <div class="half">
+                        <h2 class="p5 grad fhfw ab"> Characters </h2>
+                        
+                <div class="gallery p5 galbord">
+                
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/hyuna.png"
+            data-description="Hyuna from Alien Stage"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/hyuna.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/luka.png"
+            data-description="Luka from Alien Stage"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/luka.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/mizi.png"
+            data-description="Mizi from Alien Stage"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/mizi.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junelike/goro.png"
+            data-description="Goro Akechi from Persona 5"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/junelike/goro.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/ryuji.png"
+            data-description="Ryuji Sakamoto from Persona 5"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/ryuji.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/shiki.png"
+            data-description="Shiki Ando from Paradox Live"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/shiki.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/yohei.png"
+            data-description="Yohei Kanbayashi from Paradox Live"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/yohei.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/iori.png"
+            data-description="Iori Suiseki from Paradox Live"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/iori.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/yoshiko.png"
+            data-description="Yoshiko Tsushima from Love Live Sunshine"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/yoshiko.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/riko.png"
+            data-description="Riko Sakurauchi from Love Live Sunshine"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/riko.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/chika.png"
+            data-description="Chika Takami from Love Live Sunshine"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/chika.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/sumire.png"
+            data-description="Sumire Heanna from Love Live Superstar"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/sumire.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/LLshiki.png"
+            data-description="Shiki Wakana from Love Live Superstar"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/LLshiki.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/mei.png"
+            data-description="Mei Yoneme from Love Live Superstar"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/mei.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/madara.png"
+            data-description="Madara Mikejima from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/madara.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/hinata.png"
+            data-description="Hinata Aoi from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/hinata.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/yuta.png"
+            data-description="Yuta Aoi from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/yuta.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/natsume.png"
+            data-description="Natsume Sakasaki from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/natsume.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/tsumugi.png"
+            data-description="Tsumugi Aoba from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/tsumugi.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/sora.png"
+            data-description="Sora Harukawa from Ensemble Stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/sora.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/balor.png"
+            data-description="Balor from Fields of Mistria"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/balor.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/billy.png"
+            data-description="Billy Kid from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/billy.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/lighter.png"
+            data-description="Lighter from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/lighter.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/miyabi.png"
+            data-description="Miyabi from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/miyabi.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/harumasa.png"
+            data-description="Harumasa from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/harumasa.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/cissia.png"
+            data-description="Cissia from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/cissia.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/s11.png"
+            data-description="Soldier 11 from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/s11.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/trigger.png"
+            data-description="Trigger from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/trigger.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/vivian.png"
+            data-description="Vivian Banshee from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/vivian.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/characters/shiyuan.png"
+            data-description="Ye Shiyuan from Zenless Zone Zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/characters/shiyuan.png">
+        </a>
+            </div>
+            
+            </div>
+
+                    </div>
+                    <div class="half">
+                        <div> 
+                        <h2 class="p5 grad fhfw ab"> Media </h2>
+                        
+                <div class="gallery p5 galbord" style="margin-bottom: 10px">
+                
+            <div class="centxt">
+            <a
+            href="/assets/images/media/assclass.png"
+            data-description="assassination classroom"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/assclass.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/alienstage.png"
+            data-description="alien stage"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/alienstage.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/aceattorney.png"
+            data-description="ace attorney"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/aceattorney.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/warriors.png"
+            data-description="warrior cats"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/warriors.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/zzz.png"
+            data-description="zenless zone zero"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/zzz.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/lovelive.png"
+            data-description="love live"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/lovelive.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/paradoxlive.png"
+            data-description="paradox live"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/paradoxlive.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/enstars.png"
+            data-description="ensemble stars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/enstars.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/a3.png"
+            data-description="A3! Act Addict Actors"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/a3.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/media/i7.png"
+            data-description="Idolish7"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/media/i7.png">
+        </a>
+            </div>
+            
+            
+                        </div>
+                        
+                        <div> 
+                        <h2 class="p5 grad fhfw ab"> Ships </h2>
+                         <div class="gallery p5 galbord">
+                
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/hyuluka.png"
+            data-description="Alien Stage <br> Hyuna x Luka"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/hyuluka.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/mizisua.png"
+            data-description="Alien Stage <br> Mizi x Sua"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/mizisua.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/chikariko.png"
+            data-description="Love Live! Sunshine <br> Chika Takami x Riko Sakurauchi"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/chikariko.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/shikimei.png"
+            data-description="Love Live! Superstar <br> Shiki Wakana x Mei Yoneme"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/shikimei.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/sumikeke.png"
+            data-description="Love Live! Superstar <br> Sumire Heanna x Keke Tang"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/sumikeke.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/trig11.png"
+            data-description="Zenless Zone Zero <br> Trigger x Soldier 11"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/trig11.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/rujinu.png"
+            data-description="Kpop Demon Hunters <br> Rumi x Jinu"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/rujinu.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/ryomina.png"
+            data-description="Persona 3 <br> Ryoji x Minato Arisato / Makoto Yuki"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/ryomina.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/shuake.png"
+            data-description="Persona 5 <br> Ren Amamiya / Akira Kurusu x Goro Akechi"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/shuake.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/wataei.png"
+            data-description="Ensemble Stars <br> Wataru Hibiki x Eichi Tenshouin"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/wataei.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/flingpoly.png"
+            data-description="Hypnosis Microphone <br> Gentaro Yumeno x Ramuda Amemura x Dice Arisugawa"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/flingpoly.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/sandbina.png"
+            data-description="Genshin Impact <br> Sandrone x Columbina"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/sandbina.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/erasermic.png"
+            data-description="My Hero Academia <br> Eraserhead / Shota Aizawa x Present Mic / Hizashi Yamada"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/erasermic.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/bantai.png"
+            data-description="A3! Act Addict Actors <br> Banri Settsu x Taichi Nanao"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/bantai.png">
+        </a>
+            </div>
+            
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/ships/chikaita.png"
+            data-description="A3! Act Addict Actors <br> Chikage Utsuki x Itaru Chigasaki"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="charaimg" src="/assets/images/ships/chikaita.png">
+        </a>
+            </div>
+            
+            
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- gallery stuff -->
+ <script src="/assets/glightbox/js/glightbox.js"></script>
+<script src="/assets/glightbox/js/glightbox-setup.js"></script>
+
+<!-- Tippy js, for tooltips yay -->
+<script>
+  tippy('[data-tippy-content]', {
+    theme: 'deviantart',
+    arrow: true,
+    followCursor: false,
+  });
+</script>
+</body>
+</html>

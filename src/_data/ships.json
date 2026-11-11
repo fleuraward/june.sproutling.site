@@ -1,0 +1,77 @@
+[
+    { 
+        "link": "/assets/images/ships/hyuluka.png",
+        "name": "Hyuluka",
+        "media": "Alien Stage <br> Hyuna x Luka"
+    },
+    { 
+        "link": "/assets/images/ships/mizisua.png",
+        "name": "Mizisua",
+        "media": "Alien Stage <br> Mizi x Sua"
+    },
+    { 
+        "link": "/assets/images/ships/chikariko.png",
+        "name": "Chikariko",
+        "media": "Love Live! Sunshine <br> Chika Takami x Riko Sakurauchi"
+    },
+    { 
+        "link": "/assets/images/ships/shikimei.png",
+        "name": "Shikimei",
+        "media": "Love Live! Superstar <br> Shiki Wakana x Mei Yoneme"
+    },
+    { 
+        "link": "/assets/images/ships/sumikeke.png",
+        "name": "Sumikeke",
+        "media": "Love Live! Superstar <br> Sumire Heanna x Keke Tang"
+    },
+    { 
+        "link": "/assets/images/ships/trig11.png",
+        "name": "Trig11",
+        "media": "Zenless Zone Zero <br> Trigger x Soldier 11"
+    },
+    { 
+        "link": "/assets/images/ships/rujinu.png",
+        "name": "Rujinu",
+        "media": "Kpop Demon Hunters <br> Rumi x Jinu"
+    },
+    { 
+        "link": "/assets/images/ships/ryomina.png",
+        "name": "ryomina",
+        "media": "Persona 3 <br> Ryoji x Minato Arisato / Makoto Yuki"
+    },
+    { 
+        "link": "/assets/images/ships/shuake.png",
+        "name": "shuake",
+        "media": "Persona 5 <br> Ren Amamiya / Akira Kurusu x Goro Akechi"
+    },
+    { 
+        "link": "/assets/images/ships/wataei.png",
+        "name": "Wataei",
+        "media": "Ensemble Stars <br> Wataru Hibiki x Eichi Tenshouin"
+    },
+    { 
+        "link": "/assets/images/ships/flingpoly.png",
+        "name": "flingpoly",
+        "media": "Hypnosis Microphone <br> Gentaro Yumeno x Ramuda Amemura x Dice Arisugawa"
+    },
+    { 
+        "link": "/assets/images/ships/sandbina.png",
+        "name": "sandbina",
+        "media": "Genshin Impact <br> Sandrone x Columbina"
+    },
+    { 
+        "link": "/assets/images/ships/erasermic.png",
+        "name": "erasermic",
+        "media": "My Hero Academia <br> Eraserhead / Shota Aizawa x Present Mic / Hizashi Yamada"
+    },
+    { 
+        "link": "/assets/images/ships/bantai.png",
+        "name": "bantai",
+        "media": "A3! Act Addict Actors <br> Banri Settsu x Taichi Nanao"
+    },
+    { 
+        "link": "/assets/images/ships/chikaita.png",
+        "name": "chikaita",
+        "media": "A3! Act Addict Actors <br> Chikage Utsuki x Itaru Chigasaki"
+    }
+]

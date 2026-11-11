@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+{% include 'partial/head.njk'%}
+
+<script type="module">
+  import Meowquee from "https://cdn.jsdelivr.net/npm/meowquee/dist/meowquee.mjs";
+  new Meowquee(document.querySelector("#marquee"), {
+    autoplay: true,
+    repeat: true,
+    speed: 50,
+    direction: 'left',
+  pauseOnHover: false,
+  pauseOnFocus: false,
+  accessibility: 'decorative',
+  respectReducedMotion: true,
+  repeat: true,
+  gap: '0px',
+  observeResize: true,
+  observeMutations: true,
+  });
+</script>
+
+</head>
+<body>
+    
+    <div class="cont">
+       
+        {% include 'partial/top.njk'%}
+
+        <main>
+
+            <div class="maintexthold">
+                
+            <div class="maintext">
+                <p>I'm a silly little creature who loves to code! <span class="symbolfont">┐</span> I'm a university graduate trying to work out what's next in life. I love writing when I have free time, especially on topics that interest me. I find essay-like writing easier than creative writing, but I enjoy and love both. </p>
+                <p>I try and be very friendly, so please come and say Hi! I'm just a silly little guy who is around 5 apples tall. I adore sea creatures, especially leaf sheep, who my sona is fashioned after. I also love jellyfish more than myself. I love to collect things, mainly gemstones and pompompurin related items.</p>
+                <p>I love to create OCs, especially when roleplaying or discussing their lore with friends! On my main website I have some of my OCs listed on there, so feel free to take a look (you can get to a page on there through the journal link). I'm easiest to reach on discord, if you need to let me know anything, you can also send me a message through sprout's submission box or the contact page on my main website, <a href="https://layercake.moe/contact">layercake.moe</a>, and leave your contact details (make sure its spelled correctly, especially if you want a reply) and I'll get to you as soon as I can!</p>      
+            </div>
+
+            </div>
+
+            <div class="box grad marqueesize">
+                <div id="marquee">
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                <span>the gentle wind sways and dances as breath sinks deep with quiet longing and without a word you'll embrace the sea that sings ✦</span>
+                </div>
+            </div>
+
+            <div class="box flex">
+                
+                <img src="/assets/suamaid.png" style="width: 110px;">
+                <div class="speech" id="feed">
+                    
+                
+                </div>
+<script>
+fetch("https://status-scraper.layercakewebsite.workers.dev/")
+  .then(response => response.json())
+  .then(data => {
+    const feed = document.querySelector("#feed");
+
+    if (data.statuses.length > 0) {
+      feed.insertAdjacentHTML("beforeend", data.statuses[0].html);
+    }
+  });
+</script>
+            </div>
+
+            <div class="npbox flex colmob">
+                <div class="bgbox1" id="quote">
+
+                </div>
+                <script>
+                  const quote = "";
+const quotes = [
+  "“ hush, my child...<br /> gentle now, go to sleep",
+  "and somewhere in that moment<br /> the lonely moon will dream... ”"
+];
+const container = document.getElementById("quote");
+const typingSpeed = 130;
+const interval = 10000;
+let currentIndex = 0;
+
+function typeWriter(text, el) {
+  let i = 0;
+  function type() {
+    if (i < text.length) {
+      const char = text[i];
+      el.innerHTML += char === "\n" ? "<br/>" : char;
+      i++;
+      setTimeout(type, typingSpeed);
+    }
+  }
+  type();
+}
+
+function renderQuote() {
+  container.innerHTML = "<span class='text-default'><i></i></span>";
+  const quoteElement = container.querySelector(".text-default i");
+  const formattedQuote = quotes[currentIndex].replaceAll("<br />", "\n");
+  typeWriter(formattedQuote, quoteElement);
+}
+
+renderQuote();
+
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % quotes.length;
+  renderQuote();
+}, interval);
+                </script>
+                <div class="fw">
+                  
+                <h2 class="p5 grad fhfw bb"> June in characters </h2>
+                <div class="speech speechmobfix" style="width: calc(100% - 20px); text-align: center;">
+                  <b> please note: </b> some of these characters are associated with me by friends rather than one's I personally relate to...! they're all labelled under the same section for ease of organisation :3
+                </div>
+                
+                <div class="gallery p10 jlgh">
+            {% for image in junelike %}
+            <div class="centxt">
+            <a
+            href="{{image.link}}"
+            data-description="{{image.name}} from {{image.media}}"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="galimg" src="{{image.link}}">
+        </a>
+            </div>
+            {% endfor %}
+            </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    
+    {% include 'partial/foot.njk'%}
+</body>
+</html>

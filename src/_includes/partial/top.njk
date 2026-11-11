@@ -1,0 +1,55 @@
+
+        <header>
+            <div class="hold">
+                <div class="headim"></div>
+            </div> 
+
+            <div class="headt">
+                <div class="restwidth">
+                    <h1> June </h1>
+                    <span>or <b>junebug</b> ... he/him</span>
+                </div>
+                
+
+
+                <img class="sua" src="/assets/sua.png">
+            </div>
+        </header>
+
+        <nav class="gradflip">
+            <ul>
+                <li><a href="/">home</a></li>
+                <li class="star">✦</li>
+                <li><a href="/sona">sona</a></li> <!-- talking about my sona, artists behind them. no lore its just used to represent me! -->
+                <li class="star">✦</li>
+                <li><a href="/faves">faves</a></li> <!-- interests and also blorbos from my shows etc etc -->
+            </ul>
+        </nav>
+        
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+  var currentSlug = window.location.pathname;
+
+  if (!currentSlug.endsWith('/')) {
+    currentSlug += '/';
+  }
+
+  var navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(link) {
+    var linkHref = link.getAttribute('href');
+
+    if (!linkHref.endsWith('/')) {
+      linkHref += '/';
+    }
+
+    if (currentSlug === '/' && linkHref === '/home/') {
+      link.classList.add('navactive');
+    }
+
+    if (linkHref === currentSlug) {
+      link.classList.add('navactive');
+    }
+  });
+});
+</script>

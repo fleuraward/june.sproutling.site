@@ -1,0 +1,46 @@
+[
+    { 
+        "link": "/assets/images/media/assclass.png",
+        "name": "assassination classroom"
+    },
+    { 
+        "link": "/assets/images/media/alienstage.png",
+        "name": "alien stage"
+    },
+    { 
+        "link": "/assets/images/media/aceattorney.png",
+        "name": "ace attorney"
+    },
+    { 
+        "link": "/assets/images/media/warriors.png",
+        "name": "warrior cats"
+    },
+    { 
+        "link": "/assets/images/media/zzz.png",
+        "name": "zenless zone zero"
+    },
+    { 
+        "link": "/assets/images/media/lovelive.png",
+        "name": "love live",
+        "details": "faves: Liella and Aqours"
+    },
+    { 
+        "link": "/assets/images/media/paradoxlive.png",
+        "name": "paradox live",
+        "details": "faves: The Cats Whiskers and Akanyatsura! despite using the anime image, I hate the anime)"
+    },
+    { 
+        "link": "/assets/images/media/enstars.png",
+        "name": "ensemble stars",
+        "details": "don't keep up with it as much anymore but I love 2wink and Switch!"
+    },
+    { 
+        "link": "/assets/images/media/a3.png",
+        "name": "A3! Act Addict Actors",
+        "details": "fave troupe is Autumn!"
+    },
+    { 
+        "link": "/assets/images/media/i7.png",
+        "name": "Idolish7"
+    }
+]

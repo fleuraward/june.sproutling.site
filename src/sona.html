@@ -1,0 +1,59 @@
+---
+junecont: y
+---
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+{% include 'partial/head.njk'%}
+
+</head>
+<body>
+    
+    <div class="cont {% if junecont %}
+  junecont
+{% endif %}">
+       
+        {% include 'partial/junetop.njk'%}
+
+        <main>
+
+            <div class="maintextholdnormal br p10">    
+
+                <div class="secondspeech mb7">
+                    <p>my sona, often lovingly named 'junesona' - or just using the
+                    same name as me - was created on the 27th of February, 2025.
+                    My dear friend <a class="inline" href="https://flonkie.nekoweb.org/">Flonkie</a>
+                    helped bring the concept to life. Junesona is based off of a leaf sheep,
+                    my favourite animal ever and the cutest sea slug to exist.</p>
+
+                    <p>Below is a gallery of all the junesona art I have on hand, they're either
+                        comissioned works (largely from the amazing
+                        <a href="https://vgen.co/Do-re-mela">Do-re-mela</a>), gifts from dear friends or
+                        doodles from <a href="https://layercake.moe/drawbox">my main websites
+                            drawbox!</a>
+                    </p>
+                
+                </div>
+
+                <div class="gallery p5">
+                {% for image in junesona %}
+            <div class="centxt">
+            <a
+            href="{{image.link}}"
+            data-description="{{image.title}}"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="{{image.link}}">
+        </a>
+            </div>
+            {% endfor %}
+            </div>
+
+            </div>
+        </main>
+    </div>
+
+    {% include 'partial/foot.njk'%}
+</body>
+</html>

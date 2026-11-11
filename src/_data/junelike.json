@@ -1,0 +1,107 @@
+[
+    { 
+        "link": "/assets/images/junelike/sua.png",
+        "name": "Sua",
+        "media": "Alien Stage"
+    },
+    { 
+        "link": "/assets/images/junelike/kanata.png",
+        "name": "Kanata Shinkai",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/junelike/march.png",
+        "name": "March 7th",
+        "media": "Honkai Star Rail"
+    },
+    { 
+        "link": "/assets/images/junelike/ramuda.png",
+        "name": "Ramuda Amemura",
+        "media": "Hypnosis Microphone"
+    },
+    { 
+        "link": "/assets/images/junelike/ryu.png",
+        "name": "Ryu Natsume",
+        "media": "Paradox Live"
+    },
+    {
+        "link": "/assets/images/junelike/pheonix.png",
+        "name": "Pheonix Wright",
+        "media": "Ace Attorney"
+    },
+    {
+        "link": "/assets/images/junelike/707.png",
+        "name": "Saeyoung Choi / 707",
+        "media": "Mystic Messenger"
+    },
+    {
+        "link": "/assets/images/junelike/futaba.png",
+        "name": "Futaba Sakura",
+        "media": "Persona 5"
+    },
+    {
+        "link": "/assets/images/junelike/momo.png",
+        "name": "Momo Sunohara",
+        "media": "Idolish7"
+    },
+    {
+        "link": "/assets/images/junelike/gwen.png",
+        "name": "Guinevere",
+        "media": "Knights of Guinevere"
+    },
+    {
+        "link": "/assets/images/junelike/pheonixzzz.png",
+        "name": "Pheonix Reffaella",
+        "media": "Zenless Zone Zero"
+    },    
+    { 
+        "link": "/assets/images/junelike/sophie.png",
+        "name": "Sophie Hojo",
+        "media": "Pripara"
+    },
+    {
+        "link": "/assets/images/junelike/creamferretcookie.png",
+        "name": "Cream Ferret Cookie",
+        "media": "Cookie Run"
+    },
+    {
+        "link": "/assets/images/junelike/oz.png",
+        "name": "Oz Vessalius",
+        "media": "Pandora Hearts"
+    },
+    {
+        "link": "/assets/images/junelike/lumen.png",
+        "name": "Lumen",
+        "media": "Arknights"
+    },
+    {
+        "link": "/assets/images/junelike/atsushi.png",
+        "name": "Atsushi Nakajima",
+        "media": "Bungo Stray Dogs"
+    },
+    {
+        "link": "/assets/images/junelike/qifrey.png",
+        "name": "Qifrey",
+        "media": "Witch Hat Atelier"
+    },
+    {
+        "link": "/assets/images/junelike/goro.png",
+        "name": "Goro Akechi",
+        "media": "Persona 5"
+    },
+    {
+        "link": "/assets/images/junelike/four.png",
+        "name": "Four",
+        "media": "Drakengard 3"
+    },
+    {
+        "link": "/assets/images/junelike/honebami.png",
+        "name": "Honebami Toushirou",
+        "media": "Touken Ranbu"
+    },
+    {
+        "link": "/assets/images/junelike/cater.png",
+        "name": "Cater Diamond",
+        "media": "Twisted Wonderland"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    { 
+        "link": "/assets/images/characters/hyuna.png",
+        "name": "Hyuna",
+        "media": "Alien Stage"
+    },
+    { 
+        "link": "/assets/images/characters/luka.png",
+        "name": "Luka",
+        "media": "Alien Stage"
+    },
+    { 
+        "link": "/assets/images/characters/mizi.png",
+        "name": "Mizi",
+        "media": "Alien Stage"
+    },
+    { 
+        "link": "/assets/images/junelike/goro.png",
+        "name": "Goro Akechi",
+        "media": "Persona 5"
+    },
+    { 
+        "link": "/assets/images/characters/ryuji.png",
+        "name": "Ryuji Sakamoto",
+        "media": "Persona 5"
+    },
+    { 
+        "link": "/assets/images/characters/shiki.png",
+        "name": "Shiki Ando",
+        "media": "Paradox Live"
+    },
+    { 
+        "link": "/assets/images/characters/yohei.png",
+        "name": "Yohei Kanbayashi",
+        "media": "Paradox Live"
+    },
+    { 
+        "link": "/assets/images/characters/iori.png",
+        "name": "Iori Suiseki",
+        "media": "Paradox Live"
+    },
+    { 
+        "link": "/assets/images/characters/yoshiko.png",
+        "name": "Yoshiko Tsushima",
+        "media": "Love Live Sunshine"
+    },
+    { 
+        "link": "/assets/images/characters/riko.png",
+        "name": "Riko Sakurauchi",
+        "media": "Love Live Sunshine"
+    },
+    { 
+        "link": "/assets/images/characters/chika.png",
+        "name": "Chika Takami",
+        "media": "Love Live Sunshine"
+    },
+    { 
+        "link": "/assets/images/characters/sumire.png",
+        "name": "Sumire Heanna",
+        "media": "Love Live Superstar"
+    },
+    { 
+        "link": "/assets/images/characters/LLshiki.png",
+        "name": "Shiki Wakana",
+        "media": "Love Live Superstar"
+    },
+    { 
+        "link": "/assets/images/characters/mei.png",
+        "name": "Mei Yoneme",
+        "media": "Love Live Superstar"
+    },
+    { 
+        "link": "/assets/images/characters/madara.png",
+        "name": "Madara Mikejima",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/hinata.png",
+        "name": "Hinata Aoi",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/yuta.png",
+        "name": "Yuta Aoi",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/natsume.png",
+        "name": "Natsume Sakasaki",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/tsumugi.png",
+        "name": "Tsumugi Aoba",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/sora.png",
+        "name": "Sora Harukawa",
+        "media": "Ensemble Stars"
+    },
+    { 
+        "link": "/assets/images/characters/balor.png",
+        "name": "Balor",
+        "media": "Fields of Mistria"
+    },
+    { 
+        "link": "/assets/images/characters/billy.png",
+        "name": "Billy Kid",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/lighter.png",
+        "name": "Lighter",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/miyabi.png",
+        "name": "Miyabi",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/harumasa.png",
+        "name": "Harumasa",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/cissia.png",
+        "name": "Cissia",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/s11.png",
+        "name": "Soldier 11",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/trigger.png",
+        "name": "Trigger",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/vivian.png",
+        "name": "Vivian Banshee",
+        "media": "Zenless Zone Zero"
+    },
+    { 
+        "link": "/assets/images/characters/shiyuan.png",
+        "name": "Ye Shiyuan",
+        "media": "Zenless Zone Zero"
+    }
+]

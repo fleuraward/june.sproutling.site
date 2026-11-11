@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hop, hop, little bunny where are you going? into the forest?</title>
+<script src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/bunny.gif">
+  <link rel="shortcut icon" href="/assets/bunny.gif" type="image/x-icon">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redaction+35:ital,wght@0,400;0,700;1,400&family=Yomogi&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/glightbox/css/glightbox.css"/>
+
+<script>
+function tb8_makeArray(n){
+this.length = n;
+return this.length;
+}
+tb8_messages = new tb8_makeArray(3);
+tb8_messages[0] = "hop, hop, little bunny";
+tb8_messages[1] = "where are you going?";
+tb8_messages[2] = "into the forest?";
+tb8_rptType = 'infinite';
+tb8_rptNbr = 5;
+tb8_speed = 200;
+tb8_delay = 600;
+var tb8_counter=1;
+var tb8_currMsg=0;
+var tb8_tekst ="";
+var tb8_i=0;
+var tb8_TID = null;
+function tb8_pisi(){
+tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+document.title = tb8_tekst;
+tb8_sp=tb8_speed;
+tb8_i++;
+if (tb8_i==tb8_messages[tb8_currMsg].length){
+tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+}
+if (tb8_currMsg == tb8_messages.length){
+if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+clearTimeout(tb8_TID);
+return;
+}
+tb8_counter++;
+tb8_currMsg = 0;
+}
+tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+}
+tb8_pisi()
+</script>
+
+</head>
+<body>
+    
+    <div class="cont 
+  junecont
+">
+       
+        <style> 
+nav {
+    width:100% !important;
+}
+
+main:hover {
+  background-color: var(--background);
+  position: relative;
+  z-index:99;
+}
+</style>
+       <header class="juneheader">
+            <div class="hold">
+                <div class="headim juneheadim"></div>
+            </div> 
+
+            <div class="headt juneheadt">
+                <div class="altw">
+                    <h1> June </h1>
+                    <span>or <b>junebug</b> ... he/him</span>
+                </div>
+                <img class="june" src="/assets/juneld.webp">
+
+            </div>
+        </header>
+
+        <nav class="gradflip br">
+            <ul>
+                <li><a href="/">home</a></li>
+                <li class="star">✦</li>
+                <li><a href="/sona">sona</a></li> <!-- talking about my sona, artists behind them. no lore its just used to represent me! -->
+                <li class="star">✦</li>
+                <li><a href="/faves">faves</a></li> <!-- interests and also blorbos from my shows etc etc -->
+            </ul>
+        </nav>
+        
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+  var currentSlug = window.location.pathname;
+
+  if (!currentSlug.endsWith('/')) {
+    currentSlug += '/';
+  }
+
+  var navLinks = document.querySelectorAll('nav ul li a');
+
+  navLinks.forEach(function(link) {
+    var linkHref = link.getAttribute('href');
+
+    if (!linkHref.endsWith('/')) {
+      linkHref += '/';
+    }
+
+    if (currentSlug === '/' && linkHref === '/home/') {
+      link.classList.add('navactive');
+    }
+
+    if (linkHref === currentSlug) {
+      link.classList.add('navactive');
+    }
+  });
+});
+</script>
+
+        <main>
+
+            <div class="maintextholdnormal br p10">    
+
+                <div class="secondspeech mb7">
+                    <p>my sona, often lovingly named 'junesona' - or just using the
+                    same name as me - was created on the 27th of February, 2025.
+                    My dear friend <a class="inline" href="https://flonkie.nekoweb.org/">Flonkie</a>
+                    helped bring the concept to life. Junesona is based off of a leaf sheep,
+                    my favourite animal ever and the cutest sea slug to exist.</p>
+
+                    <p>Below is a gallery of all the junesona art I have on hand, they're either
+                        comissioned works (largely from the amazing
+                        <a href="https://vgen.co/Do-re-mela">Do-re-mela</a>), gifts from dear friends or
+                        doodles from <a href="https://layercake.moe/drawbox">my main websites
+                            drawbox!</a>
+                    </p>
+                
+                </div>
+
+                <div class="gallery p5">
+                
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/rubybulbs.png"
+            data-description="art by mars"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/rubybulbs.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/soba.jpg"
+            data-description="art by soda"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/soba.jpg">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/flonkie.png"
+            data-description="art by flonkie"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/flonkie.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/mela.png"
+            data-description="art by mela"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/mela.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon1.png"
+            data-description="art by sunny <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon1.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon2.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon2.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon3.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon3.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon4.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon4.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon5.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon5.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon6.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon6.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon7.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon7.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon8.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon8.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon9.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon9.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon10.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon10.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon11.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon11.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon12.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon12.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon13.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon13.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon14.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon14.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon15.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon15.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon16.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon16.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon17.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon17.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon18.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon18.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon19.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon19.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon20.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon20.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon21.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon21.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon22.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon22.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon23.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon23.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon24.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon24.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/anon25.png"
+            data-description="art by anon <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/anon25.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/comet.png"
+            data-description="art by comet <a href='https://layercake.moe/drawbox'>(drawbox)</a>"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/comet.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/mela2.png"
+            data-description="art by mela"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/mela2.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/mela3.png"
+            data-description="art by mela"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/mela3.png">
+        </a>
+            </div>
+            
+            <div class="centxt">
+            <a
+            href="/assets/images/junegal/mela4.png"
+            data-description="art by mela"
+            data-type="image"
+            class="glightbox"
+        >
+            <img class="sonaimg" src="/assets/images/junegal/mela4.png">
+        </a>
+            </div>
+            
+            </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- gallery stuff -->
+ <script src="/assets/glightbox/js/glightbox.js"></script>
+<script src="/assets/glightbox/js/glightbox-setup.js"></script>
+
+<!-- Tippy js, for tooltips yay -->
+<script>
+  tippy('[data-tippy-content]', {
+    theme: 'deviantart',
+    arrow: true,
+    followCursor: false,
+  });
+</script>
+</body>
+</html>
